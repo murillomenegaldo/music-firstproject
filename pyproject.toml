@@ -1,0 +1,12 @@
+[project]
+author ="Murillo Carvalho"
+name = "music-firstproject"
+version = "0.1.0"
+description = "REST API para consulta e integração de dados de plataformas de streaming de música"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.13.5",
+    "flask>=3.1.2",
+    "requests>=2.32.5",
+]
